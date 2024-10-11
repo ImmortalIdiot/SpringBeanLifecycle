@@ -1,0 +1,29 @@
+0
+    init order:
+    constructor,
+    pre init for myBean,
+    post construct,set props, custom init,
+    post init
+    work
+    pre-destroy, destroy, custom destroy
+1
+    myBean constructor
+    pre-init myBean
+    myBean post constructor
+    set properties myBean
+    anotherBean constructor
+    anotherBean post constructor
+    set properties anotherBean
+    custom init anotherBean
+    pre-destroy another bean, disposable destroy, custom destroy
+    pre-destroy my bean, disposable destroy
+2
+    works before create mybean object
+4
+    bean lifecycle:
+    state init
+    after post: state active
+    state destroy
+
+5
+    executing after another bean custom init
